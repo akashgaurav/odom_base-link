@@ -96,7 +96,7 @@ int main(int argc, char** argv){
 
     odom_trans.transform.translation.x = x;
     odom_trans.transform.translation.y = y;
-    odom_trans.transform.translation.z = 1.0;
+    odom_trans.transform.translation.z = 0.0;
     odom_trans.transform.rotation = odom_quat;
 
     //send the transform
